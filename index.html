@@ -7,7 +7,7 @@
     <title>Eugene AI — Intelligence, made useful.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,6 +23,7 @@
       </a>
       <nav aria-label="Main navigation">
         <a href="#services">Services</a>
+        <a href="#agents">AI Agents</a>
         <a href="#about">About</a>
         <a class="nav-cta" href="mailto:hello@eugene.ai">Let’s talk <span aria-hidden="true">↗</span></a>
       </nav>
@@ -48,8 +49,23 @@
           <div class="signal signal--three"></div>
           <div class="core">
             <span class="core-shine"></span>
-            <span class="core-label">EA</span>
+            <div class="hero-bot">
+              <span class="bot-antenna"><i></i></span>
+              <span class="bot-ear bot-ear--left"></span>
+              <span class="bot-ear bot-ear--right"></span>
+              <div class="bot-head">
+                <div class="bot-screen">
+                  <span class="bot-eye bot-eye--left"></span>
+                  <span class="bot-eye bot-eye--right"></span>
+                  <span class="bot-mouth"><i></i><i></i><i></i><i></i><i></i></span>
+                </div>
+              </div>
+              <span class="bot-neck"></span>
+              <span class="bot-body">EA<i>AI</i></span>
+            </div>
+            <span class="core-status"><i></i> SYSTEM ONLINE</span>
           </div>
+          <span class="pixel-particle pixel-particle--1"></span><span class="pixel-particle pixel-particle--2"></span><span class="pixel-particle pixel-particle--3"></span><span class="pixel-particle pixel-particle--4"></span><span class="pixel-particle pixel-particle--5"></span><span class="pixel-particle pixel-particle--6"></span>
           <div class="chat-chip chat-chip--one"><span class="chat-dot"></span> WhatsApp <b>Online</b></div>
           <div class="chat-chip chat-chip--two"><span class="typing"><i></i><i></i><i></i></span> AI replying</div>
           <span class="data-point data-point--one">01</span>
@@ -84,7 +100,7 @@
             <div class="service-icon" aria-hidden="true">✦</div>
             <h3>AI Auto-Reply</h3>
             <p>Instant, natural replies across WhatsApp and Messenger—trained around your products, services, and brand voice.</p>
-            <ul><li>24/7 customer response</li><li>Lead capture & qualification</li><li>FAQ and product support</li></ul>
+            <ul><li>24/7 customer response</li><li>Lead capture &amp; qualification</li><li>FAQ and product support</li></ul>
           </article>
           <article class="service-card">
             <div class="service-top"><span class="service-number">02</span><span class="service-arrow">↗</span></div>
@@ -98,14 +114,14 @@
             <div class="service-icon" aria-hidden="true">⌘</div>
             <h3>Custom Business Systems</h3>
             <p>Purpose-built systems that simplify daily work, connect your data, and give your team back valuable time.</p>
-            <ul><li>CRM & dashboards</li><li>Workflow automation</li><li>API integrations</li></ul>
+            <ul><li>CRM &amp; dashboards</li><li>Workflow automation</li><li>API integrations</li></ul>
           </article>
           <article class="service-card">
             <div class="service-top"><span class="service-number">04</span><span class="service-arrow">↗</span></div>
             <div class="service-icon" aria-hidden="true">&lt;/&gt;</div>
             <h3>AI-Powered Development</h3>
             <p>Smarter software delivery using AI-assisted coding—helping ideas become reliable products, faster.</p>
-            <ul><li>Rapid prototyping</li><li>Custom AI features</li><li>Scalable code & support</li></ul>
+            <ul><li>Rapid prototyping</li><li>Custom AI features</li><li>Scalable code &amp; support</li></ul>
           </article>
         </div>
       </section>
@@ -148,9 +164,49 @@
         </div>
       </section>
 
+      <section class="agents" id="agents" aria-labelledby="agents-title">
+        <div class="agents-orb agents-orb--one" aria-hidden="true"></div>
+        <div class="agents-orb agents-orb--two" aria-hidden="true"></div>
+        <div class="section-label section-label--dark">
+          <span>03</span>
+          <p>Meet your AI workforce</p>
+        </div>
+        <div class="agents-heading">
+          <h2 id="agents-title">AI agents that work<br /><em>alongside your team.</em></h2>
+          <p>Deploy specialized digital teammates for sales, support, and daily operations. Each agent is trained around your business and connected to the tools you already use.</p>
+        </div>
+        <div class="agent-grid">
+          <article class="agent-card agent-card--sales">
+            <div class="agent-card-top"><span>AGENT / 01</span><i><b></b> ACTIVE</i></div>
+            <div class="mini-bot" aria-hidden="true"><span class="mini-antenna"></span><div><i></i><i></i></div><b>EA</b></div>
+            <div class="agent-role"><span>Sales Agent</span><small>Lead conversion</small></div>
+            <h3>Turns conversations<br />into customers.</h3>
+            <p>Qualifies leads, recommends the right solution, and follows up automatically.</p>
+            <div class="agent-meter"><span><i style="--meter: 92%"></i></span><small>Ready to engage</small></div>
+          </article>
+          <article class="agent-card agent-card--support">
+            <div class="agent-card-top"><span>AGENT / 02</span><i><b></b> ACTIVE</i></div>
+            <div class="mini-bot" aria-hidden="true"><span class="mini-antenna"></span><div><i></i><i></i></div><b>EA</b></div>
+            <div class="agent-role"><span>Support Agent</span><small>Customer care</small></div>
+            <h3>Answers instantly.<br />Never gets tired.</h3>
+            <p>Resolves common questions 24/7 and hands complex cases to your human team.</p>
+            <div class="agent-meter"><span><i style="--meter: 96%"></i></span><small>Knowledge synced</small></div>
+          </article>
+          <article class="agent-card agent-card--ops">
+            <div class="agent-card-top"><span>AGENT / 03</span><i><b></b> ACTIVE</i></div>
+            <div class="mini-bot" aria-hidden="true"><span class="mini-antenna"></span><div><i></i><i></i></div><b>EA</b></div>
+            <div class="agent-role"><span>Operations Agent</span><small>Workflow automation</small></div>
+            <h3>Keeps the business<br />moving forward.</h3>
+            <p>Updates records, organizes requests, and connects information across your systems.</p>
+            <div class="agent-meter"><span><i style="--meter: 88%"></i></span><small>Systems connected</small></div>
+          </article>
+        </div>
+        <div class="agent-console" aria-hidden="true"><span>&gt; EUGENE_AI</span><i>agent network synchronized</i><b>● ONLINE</b></div>
+      </section>
+
       <section class="about" id="about" aria-labelledby="about-title">
         <div class="section-label">
-          <span>03</span>
+          <span>04</span>
           <p>About Eugene AI</p>
         </div>
         <div class="about-content">

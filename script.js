@@ -1,6 +1,6 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
-const observed = document.querySelectorAll(".services-heading, .service-card, .automation-copy, .flow-panel, .about-content, .principles article, .contact > *");
+const observed = document.querySelectorAll(".services-heading, .service-card, .automation-copy, .flow-panel, .agents-heading, .agent-card, .agent-console, .about-content, .principles article, .contact > *");
 if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
   observed.forEach((element, index) => {
     element.style.opacity = "0";
@@ -24,7 +24,7 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     document.documentElement.style.setProperty("--mouse-y", `${event.clientY}px`);
   });
 
-  document.querySelectorAll(".service-card").forEach((card) => {
+  document.querySelectorAll(".service-card, .agent-card").forEach((card) => {
     card.addEventListener("pointermove", (event) => {
       const bounds = card.getBoundingClientRect();
       card.style.setProperty("--spot-x", `${event.clientX - bounds.left}px`);
